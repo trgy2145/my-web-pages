@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 100%;
+    color: #666;
+    line-height: 1.8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img1,
+.img2,
+.img3 {
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1 {
+
+    background-image: url(./images/img1.jpg);
+    min-height: 600px;
+}
+
+.img2 {
+    background-image: url(./images/img2.jpg);
+    min-height: 400px;
+}
+
+.img3 {
+    background-image: url(./images/img3.jpg);
+    min-height: 400px;
+}
+
+.section {
+    text-align: center;
+    padding: 40px 70px;
+}
+
+.section-one {
+    background-color: #fff;
+    color: black;
+}
+
+.section-two {
+    background-color: #fff;
+    color: black;
+
+}
+
+.section-three {
+    background-color: #fff;
+    color: black;
+
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    opacity: 0.7;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+
+
+}
+
+.border {
+    border: 0.5rem outset pink;
+    outline: 0.5rem solid khaki;
+    border-radius: 12px;
+    margin: 2rem;
+    padding: 1rem;
+    color: brown;
+
+}
+
+h2 {
+    margin-bottom: 10px;
+    letter-spacing: 8px;
+
+}
