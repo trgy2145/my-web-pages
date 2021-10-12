@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%),url(./image/clarusway.jpg);
+    background-position: center;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: blueviolet;
+    font-size: 30px;
+    font-family: Arial;
+    margin-top: 2px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    transition: 0.8s ease-in-out;
+}
+.logo:hover{
+    font-size: 40px;
+    color: purple;
+    font-weight: bold;
+   
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.8;
+    transition: 0.8s ease-in-out;
+}
+ul li:hover{
+    opacity: 1;
+    font-size: 16px;
+    color: blueviolet;
+    cursor: pointer;
+    
+}
+ul li a{
+    text-decoration: none;
+    
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    margin-top: 13px;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    color: #fff;
+    border-right: none;
+    border: 2px solid blueviolet;
+    float: left;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    cursor: pointer;   
+}
+.btn{
+    width: 100px;
+    height: 44px;
+    margin-top: 13px;
+    color: #fff;
+    background-color: blueviolet;
+    font-size: 16px;
+    float: left;
+    opacity: 0.8;
+    border: 2px solid blueviolet;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+    
+}
+.btn:hover{
+    background-color: blueviolet;
+    opacity: 0.5;
+
+    
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    float: left;
+    position: relative;
+}
+.content .p1{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+}
+.content .send{
+    margin-left: 20px;
+    width: 160px;
+    height: 40px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+}
+
+.send:hover{
+    background-color: blueviolet;
+    opacity: 0.8;
+    
+    
+}
+.send a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    opacity: 0.8;
+    letter-spacing: 1.5px;
+    
+}
+.content span{
+    color: blueviolet;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background:linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    left: 870px;
+    top: 30px;
+    border-radius: 15px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: blueviolet;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 8px;
+    letter-spacing: 1.5px;
+    transition: 0.8s ease-in-out ;
+}
+.form h2:hover{
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    opacity: 0.7;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid blueviolet;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+    opacity: 0.8;
+}
+.btn_2{
+    width: 240px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: 0.8s ease-in-out;
+}
+.btn_2:hover{
+    background-color: blueviolet;
+    
+} 
+.btn_2 a{
+    text-decoration: none;
+    color: blueviolet;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: blueviolet;
+    transition: 0.8s ease-in-out;
+}
+.btn_2 a:hover{
+    color: white;
+    opacity: 0.8;
+    
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    opacity: 0.8;
+}
+.form .link a{
+    text-decoration: none;
+    color:#fff;
+}
+.login-with{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    opacity: 0.8;
+
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+
+}
+
+.icons .fab{
+    color: white;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 14px;
+    transition: 0.8s ease-in-out;
+    
+
+}
+.icons .fab:hover{
+
+    color: blueviolet;
+    font-size: 40px;
+
+}
+.pagination {
+    padding-left: 500px;
+    padding-top: 130px;
+    display: inline-block;
+    width: 500px;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a.active {
+    background-color: blueviolet;
+    color: white;
+  }
+  .pagination a.active:hover {
+    background-color: blueviolet;
+    opacity: 0.8;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
