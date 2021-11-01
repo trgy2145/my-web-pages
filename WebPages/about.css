@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+.about {
+  color: #a9508b;
+}
+.navbar {
+  background-color: #35424a;
+  color: #ffffff;
+  border-bottom: 3px solid #a9508b;
+  padding: 30px 0;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__left {
+  margin-left: 10px;
+}
+.navbar__right li {
+  /* float: right; */
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 10px;
+  font-weight: bolder;
+}
+li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding-right: 40px 0;
+  /* float: right; */
+  display: inline-block;
+}
+span {
+  color: #a9508b;
+}
+.subs {
+  background-color: #35424a;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px;
+  align-items: center;
+}
+.subs h3 {
+  font-size: 1.5rem;
+  /* line-height: ; */
+  color: #ffffff;
+  margin-right: auto;
+}
+#email {
+  font-size: 14px;
+  line-height: 25px;
+  padding: 4px;
+  width: 250px;
+  margin-right: 0.5em;
+}
+#submit {
+  font-size: 14px;
+  line-height: 25px;
+  padding: 6px 20px;
+  background-color: #e44d27;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: silver;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.info2 {
+  background-color: #35424a;
+  margin-top: 15px;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.info1 {
+  padding: 20px;
+}
+
+.info1 h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.info3 {
+  background-color: #35424a;
+  width: 250px;
+  height: 200px;
+  margin: 30px;
+  /* letter-spacing: 1px; */
+  padding: 15px;
+  border-radius: 10px;
+  object-fit: contain;
+  color: #ffffff;
+  vertical-align: middle;
+}
+.ortak {
+  margin: 30px;
+  width: 70%;
+  /* letter-spacing: 1px; */
+}
+.info3 h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+footer {
+  background-color: #35424a;
+  position: absolute;
+  bottom: 0;
+
+  width: 100vw;
+  text-align: center;
+}
